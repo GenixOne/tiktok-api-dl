@@ -6,6 +6,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "build": "build --output public",
+
     "cli": "ts-node src/cli/index.ts"
   },
   "bin": {
